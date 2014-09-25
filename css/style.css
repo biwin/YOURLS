@@ -1,337 +1,424 @@
 body {
-	font-family: Verdana, Arial;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	color: #595441;
-	background:#17BB9C;
-	text-align:center;
-	margin-top:0px;
-	padding-top:10px;
+	background: #17BB9C;
+	text-align: center;
+	margin-top: 0;
+	padding-top: 10px
 }
+
 #wrap {
-	max-width:1300px;
-	min-height:150px;
-	margin:0 auto;
-	background:white;
-	text-align:left;
-	padding:5px 20px 10px 20px;
-	max-width:950px;
-	min-height:150px;
-	margin:0 auto;
-	background:white;
-	text-align:left;
-	padding:5px 20px 10px 20px;
-	-webkit-box-shadow: 1px 1px 8px 1px #000000;
-	box-shadow: 1px 1px 8px 1px #000000;
-	-moz-border-radius:20px;
-	-webkit-border-radius:20px;
-	border-radius:0px;
-	-moz-border-radius:0px;
-	-webkit-border-radius:0px;
-	border-radius:0px;
+	max-width: 950px;
+	min-height: 150px;
+	margin: 0 auto;
+	background: white;
+	text-align: left;
+	padding: 5px 20px 10px 20px;
+	-moz-box-shadow: 1px 1px 8px 1px #000;
+	-webkit-box-shadow: 1px 1px 8px 1px #000;
+	box-shadow: 1px 1px 8px 1px #000;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0
 }
-.hide-if-no-js {display: none;}
+
+.hide-if-no-js {
+	display: none
+}
+
 div, p, td {
-	font-family: Verdana, Arial;
-	font-size: 12px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px
 }
+
 a, a:link, a:active, a:visited {
 	color: #2a85b3;
-	text-decoration: none;
+	text-decoration: none
 }
+
 a:hover {
-	text-decoration: underline;
+	text-decoration: underline
 }
-h1 {height:50px;margin:0;float:right;max-width:500px;}
-h1 a {text-align:right;font-size:20px;float:right;}
-h1 a, h1 a:link, h1 a:active, h1 a:visited {color:#2a85b3}
-h1 a:hover{text-decoration:none;}
-h1 a:hover span{text-decoration:underline;color:#88c0eb}
+
+h1 {
+	height: 50px;
+	margin: 0;
+	float: right;
+	max-width: 500px
+}
+
+h1 a {
+	text-align: right;
+	font-size: 20px;
+	float: right
+}
+
+h1 a, h1 a:link, h1 a:active, h1 a:visited {
+	color: #2a85b3
+}
+
+h1 a:hover {
+	text-decoration: none
+}
+
+h1 a:hover span {
+	text-decoration: underline;
+	color: #88c0eb
+}
 
 ul#admin_menu {
-	min-height:100px;
-	list-style-type:none;
-	padding:0;
-	font-size:105%;
+	min-height: 100px;
+	list-style-type: none;
+	padding: 0;
+	font-size: 105%
 }
+
 ul#admin_menu li {
-	color:#aaa;
-	padding:1px 0;
+	color: #aaa;
+	padding: 1px 0
 }
+
 ul#admin_menu li:hover {
-	list-style-type:square;
-	color:#000;
+	list-style-type: square;
+	color: #000
 }
 
 code {
-	background:#eaeaef;
-	padding:0 2px;
+	background: #eaeaef;
+	padding: 0 2px
 }
+
 tt {
-	background:#ffc;
-	padding:0 2px;		
+	background: #ffc;
+	padding: 0 2px
 }
 
 input, textarea {
-	height:17px;
+	height: 17px
 }
+
 Input.text, select, textarea {
-	font-family: Verdana, Arial;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 10px;
 	color: #2B3D4F;
-	background-color: #FFFFFF;
+	background-color: #FFF;
 	border: 1px solid #88c0eb;
-	margin:1px;
+	margin: 1px
 }
+
 input.button {
-	font-family: Verdana, Arial;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	color: #2B3D4F;
 	font-weight: bold;
-	background-color: #FFFFFF;
-	cursor:pointer;
+	background-color: #FFF;
+	cursor: pointer
 }
 
 input.primary {
-	border:2px solid #2A85B3;
-	background:#fafafe;
+	border: 2px solid #2A85B3;
+	background: #fafafe
 }
+
 input.text:focus, textarea:focus {
-	border:2px solid #2A85B3;
-	margin:0px;
+	border: 2px solid #2A85B3;
+	margin: 0
 }
-tr.edit-row  td {
-	background:#e3f3ff !important;
+
+tr.edit-row td {
+	background: #e3f3ff !important
 }
+
 #new_url {
-	text-align:center;
-	padding:1px;
-	border:1px solid #CDCDCD;
-	background:#fff;
-	clear:both;
+	text-align: center;
+	padding: 1px;
+	border: 1px solid #CDCDCD;
+	background: #fff;
+	clear: both
 }
+
 #new_url div {
-	background:#F0C31D;
-	padding:4px;
-	color:#000;
+	background: #F0C31D;
+	padding: 4px;
+	color: #000
 }
+
 #new_url_form {
-	padding:4px;
+	padding: 4px
 }
+
 #new_url #feedback {
-	background:#ff8;
-	color:#88c0eb;
-	width:50%;
-	margin:0px 25%;
-	padding:2px;
-	border:1px solid #ff8;
+	background: #ff8;
+	color: #88c0eb;
+	width: 50%;
+	margin: 0 25%;
+	padding: 2px;
+	border: 1px solid #ff8
 }
+
 #new_url #feedback .fail {
-	color:#f55;
+	color: #f55
 }
-#add-url {width:400px}
-td.url small a{
-	color:#bbc;
+
+#add-url {
+	width: 400px
 }
-body.desktop td.actions input,body.desktop  td.actions a {
-	visibility:hidden;
+
+td.url small a {
+	color: #bbc
 }
+
+body.desktop td.actions input, body.desktop td.actions a {
+	visibility: hidden
+}
+
 td.actions input.disabled, td.actions input.loading {
-	visibility:visible;
+	visibility: visible
 }
+
 tr:hover td.actions input, tr:hover td.actions a {
-	visibility:visible;
+	visibility: visible
 }
+
 td.actions .button {
-	font-family: Verdana, Arial;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 10px;
 	color: #595441;
 	font-weight: bold;
-	background-color: #FFFFFF;
+	background-color: #FFF;
 	border: 1px solid #88c0eb;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-	border-radius:3px;
-	cursor:pointer;
-	height:22px;
-	width:22px;
-	margin-top:0px;
-	margin-right:5px;
-	display:block;
-	float:left;
-	text-indent:-9999px;
-	outline:0px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+	height: 22px;
+	width: 22px;
+	margin-top: 0;
+	margin-right: 5px;
+	display: block;
+	float: left;
+	text-indent: -9999px;
+	outline: 0
 }
+
 td.actions .button:active {
-	border:1px solid #000;
+	border: 1px solid #000
 }
+
 td.actions .button:hover {
-	text-decoration:none;
+	text-decoration: none
 }
+
 td.actions .button.disabled, #add-button.disabled {
-	border:1px solid #333;
-	background:#ccc;
+	border: 1px solid #333;
+	background: #ccc
 }
+
 td.actions .button.loading, #add-button.loading {
-	background:#cc7 url(../images/loading.gif) center center no-repeat;
-	color:#cc7;
+	background: #cc7 url(../images/loading.gif) center center no-repeat;
+	color: #cc7
 }
+
 td.actions .button_share {
-	background:transparent url(../images/share.png) 2px center no-repeat;
+	background: transparent url(../images/share.png) 2px center no-repeat
 }
+
 td.actions .button_edit {
-	background:transparent url(../images/pencil.png) 2px center no-repeat;
+	background: transparent url(../images/pencil.png) 2px center no-repeat
 }
+
 td.actions .button_delete {
-	background:transparent url(../images/delete.png) 2px center no-repeat;
+	background: transparent url(../images/delete.png) 2px center no-repeat
 }
+
 td.actions .button_stats {
-	background:transparent url(../images/chart_bar.png) 2px center no-repeat;
+	background: transparent url(../images/chart_bar.png) 2px center no-repeat
 }
+
 #main_table tfoot th, #main_table tfoot th div {
-	font-size:10px;
+	font-size: 10px
 }
+
 .error {
 	color: red;
-	background:#fee;
+	background: #fee
 }
+
 .warning {
 	color: orange;
-	background:#ffe9bf;
+	background: #ffe9bf
 }
+
 .success {
 	color: green;
-	background:#efe;
+	background: #efe
 }
+
 #login {
 	width: 300px;
-	margin: 200px auto 0px auto;
+	margin: 200px auto 0 auto
 }
-#login p{
-	font-weight: bold;
+
+#login p {
+	font-weight: bold
 }
+
 #login .text {
-	width: 100%;
+	width: 100%
 }
+
 #login ul {
-	padding-left:0px;
-	list-style-type:none;
-	text-indent:0;
+	padding-left: 0;
+	list-style-type: none;
+	text-indent: 0
 }
+
 #login ul li {
-	padding:0 0 5px 20px;
+	padding: 0 0 5px 20px
 }
+
 #login ul.error li {
-	background:transparent url(../images/cancel.png) top left no-repeat;
+	background: transparent url(../images/cancel.png) top left no-repeat
 }
+
 #login ul.warning li {
-	background:transparent url(../images/error.png) top left no-repeat;
+	background: transparent url(../images/error.png) top left no-repeat
 }
+
 #login ul.success li {
-	background:transparent url(../images/accept.png) top left no-repeat;
+	background: transparent url(../images/accept.png) top left no-repeat
 }
+
 .sub_wrap {
-	max-width:580px;
-	padding-bottom:30px;
-	text-align:justify;
+	max-width: 580px;
+	padding-bottom: 30px;
+	text-align: justify
 }
+
 .sub_wrap span {
-	background:#ffa;
-	padding:0 2px;
+	background: #ffa;
+	padding: 0 2px
 }
+
 a.bookmarklet {
-	border:2px solid #2a85b3;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-	border-radius:3px;
-	padding:5px 5px 5px 20px;
-	background:#eef url(../images/favicon.gif) 2px center no-repeat;
-	margin:3px;
-	display:inline-block;
+	border: 2px solid #2a85b3;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 5px 5px 5px 20px;
+	background: #eef url(../images/favicon.gif) 2px center no-repeat;
+	margin: 3px;
+	display: inline-block
 }
+
 a.bookmarklet:hover {
-	text-decoration:none;
-	background-position:3px center;
+	text-decoration: none;
+	background-position: 3px center
 }
+
 #footer {
-	text-align:center;
-	margin-top:20px;
+	text-align: center;
+	margin-top: 20px
 }
+
 #footer p {
-	padding:10px;
-	background:white;
-	margin:0 auto;
-	max-width:950px;
-	-moz-border-radius:0px;
-	-webkit-border-radius:0px;
-
-	-webkit-box-shadow: 1px 1px 4px 0px #000000;
-	box-shadow: 1px 1px 4px 0px #000000;
-
-	-webkit-border-bottom-left-radius:0px;
-	-webkit-border-bottom-right-radius:0px;
-	border-bottom-left-radius:0px;
-	border-bottom-right-radius:0px;
+	padding: 10px;
+	background: white;
+	margin: 0 auto;
+	max-width: 950px;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-moz-box-shadow: 1px 1px 4px 0 #000;
+	-webkit-box-shadow: 1px 1px 4px 0 #000;
+	box-shadow: 1px 1px 4px 0 #000;
+	-webkit-border-bottom-right-radius: 0;
+	-moz-border-radius-bottomright: 0;
+	border-bottom-right-radius: 0;
+	-webkit-border-bottom-left-radius: 0;
+	-moz-border-radius-bottomleft: 0;
+	border-bottom-left-radius: 0
 }
 
 #footer p a {
-	background:#fff url(../images/favicon.gif) 2px center no-repeat;
-	padding-left:20px;
+	background: #fff url(../images/favicon.gif) 2px center no-repeat;
+	padding-left: 20px
 }
 
 .notice {
-	border:1px solid #2a85b3;
+	border: 1px solid #2a85b3;
 	background: #F3FAFD;
-	-moz-border-radius:6px;
-	-webkit-border-radius:6px;
-	border-radius:6px;
-	width:70%;
-	margin-left:15%;
-	padding-left:10px;
-	margin-bottom:5px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	width: 70%;
+	margin-left: 15%;
+	padding-left: 10px;
+	margin-bottom: 5px
 }
-
 
 .jquery-notify-bar {
-  width:100%;
-  position:fixed;
-  top:0;
-  left:0;
-  z-index:32768;
-  background-color:#efefef;
-  font-size:18px;
-  color:#000;
-  text-align:center;
-  font-family: Arial, Verdana, sans-serif;
-  padding:20px 0px;
-  border-bottom:1px solid #bbb;
-  filter:alpha(opacity=95);
-  -moz-opacity:0.95;
-  -khtml-opacity:0.95;
-  opacity:0.95;
-  -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
-  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
-  text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 32768;
+	background-color: #efefef;
+	font-size: 18px;
+	color: #000;
+	text-align: center;
+	font-family: Arial, Verdana, sans-serif;
+	padding: 20px 0;
+	border-bottom: 1px solid #bbb;
+	filter: alpha(opacity=95);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+	filter: alpha(opacity=95);
+	opacity: 0.95;
+	-khtml-opacity: 0.95;
+	-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
 }
-.jquery-notify-bar.error ,.jquery-notify-bar.fail {
-  color:#f00;
-  background-color:#fdd;
+
+.jquery-notify-bar.error, .jquery-notify-bar.fail {
+	color: #f00;
+	background-color: #fdd
 }
-.jquery-notify-bar.error span,.jquery-notify-bar.fail span{
-	background:transparent url("../images/error.png") no-repeat left center;
-	padding-left:20px;
-}.jquery-notify-bar.success span{
-	background:transparent url("../images/accept.png") no-repeat left center;
-	padding-left:20px;
+
+.jquery-notify-bar.error span, .jquery-notify-bar.fail span {
+	background: transparent url(../images/error.png) no-repeat left center;
+	padding-left: 20px
 }
+
+.jquery-notify-bar.success span {
+	background: transparent url(../images/accept.png) no-repeat left center;
+	padding-left: 20px
+}
+
 .jquery-notify-bar.success {
-  color:#060;
-  background-color:#aea;
+	color: #060;
+	background-color: #aea
 }
+
 .notify-bar-close {
-  position:absolute;
-  left:95%;
-  font-size:11px;
+	position: absolute;
+	left: 95%;
+	font-size: 11px
 }
-tr.plugin.active a{ font-weight:bolder;}
-body.desktop tr.plugin td.plugin_desc small{ visibility:hidden;}
-tr:hover.plugin td.plugin_desc small{ visibility:visible;}
+
+tr.plugin.active a {
+	font-weight: bolder
+}
+
+body.desktop tr.plugin td.plugin_desc small {
+	visibility: hidden
+}
+
+tr:hover.plugin td.plugin_desc small {
+	visibility: visible
+}
